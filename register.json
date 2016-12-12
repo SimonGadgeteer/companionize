@@ -1,0 +1,30 @@
+{
+    "type": "object",
+    "title": "register user",
+    "$schema": "http://json-schema.org/draft-04/schema",
+    "required": ["id", "name", "email"],
+    "properties": {
+        "id": {
+            "type": ["integer", "null"],
+            "_db_settings": {
+                "type": "id_field",
+                "required": true,
+                "primary_key": true
+            }
+        },
+        "name": {
+            "type": "string",
+            "_db_settings": {
+                "type": "string",
+                "required": true
+            }
+        },
+        "email": {
+            "type": "string",
+            "_db_settings": {
+                "type": "string",
+                "required": true
+            }
+        }
+    }
+}
