@@ -7,7 +7,7 @@ Don't worry, as soon as the minimum amount of users subscribed to an activity, w
 ###Usage
 1. register yourself using `/register?username=yourUserName&email=yourMail`
 2. We'll send you a verification email with a link to our site, where you finish setup your account (add phone, location, password, etc.)
-3. Find an activity on the Companionize home page that you like. For example you would like to join the upcoming football game. Just register yourself using `/football/register` and it's done. Can't make it? Unregister yourself `/football/unregister`. Once there are enough players, you'll be notified 
+3. Find an activity on the Companionize home page that you like. For example you would like to join the upcoming football game. Just register yourself using `/football/enlist` and it's done. Can't make it? Unregister yourself `/football/cancel`. Once there are enough players, you'll be notified 
 4. Create your own activity by entering `/new?name=yourActivity` and adding some detail via the link we'll mail you
 5. Wait for people to join our send out some reference links by yourself
 
