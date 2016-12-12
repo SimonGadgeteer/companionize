@@ -12,7 +12,9 @@ Don't worry, as soon as the minimum amount of users subscribed to an activity, w
 5. Wait for people to join our send out some reference links by yourself
 ##This is for the devs
 ###Installation
+Just clone the git `git clone https://github.com/SimonGadgeteer/companionize.git` and make sure you have python and ramses installed
 ###Run it
+`./app.py`
 ##This is for the business guys
 ###Sponsored activities
 We'll gladly give fellow business men the functionality to host sponsored activities. Our activity will be marked as "Sponsored" so everyone will see this. Please contact us for our attractive pricing models: sponsored@companionize.online
