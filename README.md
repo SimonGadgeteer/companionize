@@ -19,3 +19,12 @@ Just clone the git `git clone https://github.com/SimonGadgeteer/companionize.git
 ##This is for the business guys
 ###Sponsored activities
 We'll gladly give fellow business men the functionality to host sponsored activities. Our activity will be marked as "Sponsored" so everyone will see this. Please contact us for our attractive pricing models: sponsored@companionize.online
+##Extension concept aka where we will go
+###Register User
+A proper registration for a new user will be implemented within the next few versions. This will allow the user to permanently register them selfs and keep them logged in.
+###Filter functionality
+The fight the sheer amount of open activities on the home page, a user will be able to filter only the stuff he / she is interessted in.
+###UI
+In a not so distant future, we will be able to add a GUI on top of our service. This will make the service even more accessable (especially with a mobile devie). This will start as a (closed) beta.
+
+####Do you have a nice idea we should a look into? Let us know @companionize (twitter) or feedback@companionize.online
