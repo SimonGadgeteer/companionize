@@ -10,6 +10,7 @@ Don't worry, as soon as the minimum amount of users subscribed to an activity, w
 3. Find an activity on the Companionize home page that you like. For example you would like to join the upcoming football game. Just register yourself using `/football/register` and it's done. Can't make it? Unregister yourself `/football/unregister`. Once there are enough players, you'll be notified 
 4. Create your own activity by entering `/new?name=yourActivity` and adding some detail via the link we'll mail you
 5. Wait for people to join our send out some reference links by yourself
+
 ##This is for the devs
 ###Installation
 Just clone the git `git clone https://github.com/SimonGadgeteer/companionize.git` and make sure you have python and ramses installed
