@@ -27,4 +27,4 @@ The fight the sheer amount of open activities on the home page, a user will be a
 ###UI
 In a not so distant future, we will be able to add a GUI on top of our service. This will make the service even more accessable (especially with a mobile devie). This will start as a (closed) beta.
 
-####Do you have a nice idea we should a look into? Let us know @companionize (twitter) or feedback@companionize.online
+####Do you have a nice idea we should have a look into? Let us know @companionize (twitter) or feedback@companionize.online
