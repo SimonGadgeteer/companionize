@@ -1,0 +1,12 @@
+project/__init__.py
+project.egg-info/PKG-INFO
+project.egg-info/SOURCES.txt
+project.egg-info/dependency_links.txt
+project.egg-info/entry_points.txt
+project.egg-info/not-zip-safe
+project.egg-info/requires.txt
+project.egg-info/top_level.txt
+project/tests/__init__.py
+project/tests/test_api.py
+tests/__init__.py
+tests/test_api.py
