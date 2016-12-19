@@ -10,25 +10,6 @@ version: v1
 mediaType: application/json
 protocols: [HTTP]
 
-/items:
-    displayName: Collection of items
-    get:
-        description: Get all item
-    post:
-        description: Create a new item
-        body:
-            application/json:
-                schema: !include items.json
-
-    /{id}:
-        displayName: Collection-item
-        get:
-            description: Get a particular item
-        delete:
-            description: Delete a particular item
-        patch:
-            description: Update a particular item
-
 /register:
     displayName: Register
     post:
@@ -37,33 +18,18 @@ protocols: [HTTP]
             application/json:
                 schema: !include register.json
 
-/{activity}:
-  /enlist:
-    displayName: Enlist in Activity
-    post:
-        description: Enlist in activity
-        body:
-            application/json:
-                schema: !include register.json
-
+/activity:
+  displayName: Register Activity
+  get:
+      description: Get all Activities
+  post:
+      description: Create activity
+      body:
+        application/json:
+          schema: !include activity.json
   /{id}:
       displayName: "Subscription"
       get:
-          description: Get a particular subscription
+          description: Get a particular activity
       delete:
-          description: Delete a particular subscription
-
-  /cancel:
-    displayName: Cancel activity subscription
-    post:
-        description: Cancel activity subscription
-        body:
-            application/json:
-                schema: !include register.json
-
-/new:
-  post:
-    description: create new activity
-    body:
-        application/json:
-          schema: !include activity.json
+          description: Delete a particular activity

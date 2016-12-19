@@ -1,6 +1,6 @@
 {
     "type": "object",
-    "title": "register user",
+    "title": "register activity",
     "$schema": "http://json-schema.org/draft-04/schema",
     "required": ["id", "name"],
     "properties": {
