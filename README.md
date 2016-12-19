@@ -15,7 +15,10 @@ Don't worry, as soon as the minimum amount of users subscribed to an activity, w
 ###Installation
 Just clone the git `git clone https://github.com/SimonGadgeteer/companionize.git` and make sure you have python and ramses installed
 ###Run it
-`./app.py`
+`source companionize/bin/activate`
+`pserve companionize/local.ini`
+###Docker
+Alternatively, you can use the docker image: https://hub.docker.com/r/gruppeasdf/companionize
 ##This is for the business guys
 ###Sponsored activities
 We'll gladly give fellow business men the functionality to host sponsored activities. Our activity will be marked as "Sponsored" so everyone will see this. Please contact us for our attractive pricing models: sponsored@companionize.online
