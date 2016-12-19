@@ -16,6 +16,7 @@ Don't worry, as soon as the minimum amount of users subscribed to an activity, w
 Just clone the git `git clone https://github.com/SimonGadgeteer/companionize.git` and make sure you have python and ramses installed
 ###Run it
 `source companionize/bin/activate`
+
 `pserve companionize/local.ini`
 ###Docker
 Alternatively, you can use the docker image: https://hub.docker.com/r/gruppeasdf/companionize
